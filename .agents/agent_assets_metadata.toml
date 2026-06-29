@@ -1,0 +1,44 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "eKYECHRnyboo1uqwxJFRN"
+uri = "file://artifacts/basketball-landing/src/assets/images/hero-mockup.png"
+type = "image"
+title = "Hero devices mockup"
+
+[[generated]]
+id = "__aYOiy_FVcwAnq03jlBt"
+uri = "file://artifacts/basketball-landing/src/assets/images/gallery-defensa.png"
+type = "image"
+title = "Defense session diagram"
+
+[[generated]]
+id = "5klI13pEDgQDVZ0_b7vAb"
+uri = "file://artifacts/basketball-landing/src/assets/images/gallery-ataque.png"
+type = "image"
+title = "Attack session diagram"
+
+[[generated]]
+id = "NbIzEYrYVib2qLcmLozov"
+uri = "file://artifacts/basketball-landing/src/assets/images/gallery-tecnica.png"
+type = "image"
+title = "Individual technique diagram"
+
+[[generated]]
+id = "SJ1TwyNf_uBhAQZwdL2dN"
+uri = "file://artifacts/basketball-landing/src/assets/images/gallery-situaciones.png"
+type = "image"
+title = "Game situations diagram"
+
+[[generated]]
+id = "Qukg9oPneJl8feTfYeNmD"
+uri = "file://artifacts/basketball-landing/src/assets/images/gallery-pase.png"
+type = "image"
+title = "Passing drills diagram"
+
+[[generated]]
+id = "xZrw7jBF7CkeZ6Ttefz8m"
+uri = "file://artifacts/basketball-landing/src/assets/images/gallery-tiro.png"
+type = "image"
+title = "Shooting drills diagram"

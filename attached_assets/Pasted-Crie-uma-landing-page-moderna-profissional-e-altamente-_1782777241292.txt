@@ -1,0 +1,279 @@
+Crie uma landing page moderna, profissional e altamente conversiva para vender um produto digital chamado:
+
+# 700 Sesiones de Entrenamiento de Baloncesto
+
+A página deve ter design premium, responsivo (mobile e desktop), com visual esportivo nas cores azul escuro, laranja e branco. Utilize seções com fundo alternado, ícones modernos, animações suaves ao rolar a página e botões de CTA destacados em laranja.
+
+## HERO SECTION
+
+Título principal:
+**700 Sesiones de Entrenamiento de Baloncesto**
+
+Subtítulo:
+**OFERTA LIMITADA — ACCESO INMEDIATO**
+
+Texto:
+**Planifica meses de entrenamiento en minutos con 700 sesiones listas para aplicar. Más organización, mejores resultados y jugadores más motivados desde el primer día.**
+
+Botão principal:
+**¡QUIERO ACCEDER AHORA!**
+
+Adicionar uma imagem de mockup digital (tablet, notebook e celular) mostrando páginas de entrenamientos de baloncesto.
+
+Adicionar um contador regressivo:
+**La oferta termina en: 00:12:30**
+
+---
+
+## SECCIÓN: LO QUE VAS A RECIBIR
+
+Criar 3 cards com ícones.
+
+### Card 1
+
+Título:
+**700 Sesiones Completas**
+
+Texto:
+Sesiones organizadas con objetivos claros, tiempos definidos y metodologías validadas.
+
+Itens:
+✅ Ejercicios progresivos y estructurados
+✅ Acceso desde celular, tablet o computadora
+✅ Material listo para aplicar.
+
+### Card 2
+
+Título:
+**Planificaciones Paso a Paso**
+
+Texto:
+Sesiones completas que facilitan la organización de toda la temporada.
+
+Itens:
+✅ Diferentes niveles de dificultad
+✅ Resultados medibles
+✅ Fácil implementación.
+
+### Card 3
+
+Título:
+**Para Todos los Equipos**
+
+Texto:
+Ideal para entrenadores, academias y clubes deportivos.
+
+Itens:
+✅ Categorías infantiles
+✅ Categorías juveniles
+✅ Equipos adultos.
+
+---
+
+## SECCIÓN: BENEFICIOS
+
+Título:
+**¿Por Qué Elegir Nuestro Material?**
+
+Criar uma grade com ícones:
+
+⏱ Ahorra horas de planificación cada semana.
+
+💡 Nunca más te quedarás sin ideas.
+
+⭐ Mejora la calidad de tus entrenamientos.
+
+🔥 Aumenta la motivación de tus jugadores.
+
+📅 Organiza temporadas completas.
+
+🏆 Entrena con metodología profesional.
+
+---
+
+## SECCIÓN: BONOS GRATIS
+
+Título:
+**¡Recibe 3 Bonos Increíbles GRATIS!**
+
+Criar três cards.
+
+### BONUS 1
+
+**100 Sesiones Extra de Baloncesto**
+Valor: $12 → GRATIS
+
+### BONUS 2
+
+**40 Sesiones de Defensa**
+Valor: $8 → GRATIS
+
+### BONUS 3
+
+**75 Sesiones de Táctica y Desmarque**
+Valor: $7 → GRATIS
+
+Texto em destaque:
+**Total en bonos: $27 — ¡HOY GRATIS!**
+
+---
+
+## SECCIÓN DE OFERTA
+
+Criar dois cards de preços.
+
+### PLAN BÁSICO
+
+Preço antigo:
+$17
+
+Preço atual:
+$7
+
+Itens:
+✅ 350 Sesiones de Entrenamiento
+✅ Acceso Inmediato y de Por Vida
+✅ Garantía de 7 días
+❌ No incluye los bonos.
+
+Botão:
+**ELEGIR BÁSICO**
+
+---
+
+### PLAN COMPLETO (DESTACADO COMO MÁS POPULAR)
+
+Adicionar selo:
+**MÁS POPULAR – MEJOR VALOR**
+
+Preço antigo:
+$37
+
+Preço atual:
+$15
+
+Itens:
+✅ 700 Sesiones de Entrenamiento
+✅ Acceso Inmediato y de Por Vida
+✅ Garantía de 7 días
+✅ 100 Sesiones Extra
+✅ 40 Sesiones de Defensa
+✅ 75 Sesiones de Táctica y Desmarque.
+
+Botão:
+**¡OBTENER ACCESO COMPLETO!**
+
+Texto abaixo:
+🔒 Compra 100% segura · Garantía de 7 días.
+
+---
+
+## SECCIÓN: VISTA PREVIA
+
+Título:
+**Un Vistazo a Lo Que Recibirás**
+
+Criar uma galeria de imagens de exemplo de:
+
+* Sesión de Defensa
+* Sesión de Ataque
+* Técnica Individual
+* Situaciones de Juego
+* Ejercicios de Pase
+* Ejercicios de Tiro
+
+As imagens devem aparecer em cards modernos com efeito hover.
+
+---
+
+## SECCIÓN: TESTIMONIOS
+
+Criar três depoimentos com estrelas.
+
+★★★★★
+
+"Este material transformó completamente la forma en que organizo mis entrenamientos."
+
+Alejandro García
+Entrenador Formativo
+
+★★★★★
+
+"Increíble valor por el precio. Todo está organizado y listo para aplicar."
+
+Daniel Herrera
+Director Técnico
+
+★★★★★
+
+"La progresión de las sesiones es perfecta y mis jugadores han mejorado muchísimo."
+
+Ricardo Mendoza
+Entrenador y Preparador Físico
+
+---
+
+## SECCIÓN DE GARANTÍA
+
+Criar uma caixa destacada.
+
+Título:
+**Garantía Incondicional de 7 Días**
+
+Texto:
+Prueba el material durante 7 días completos. Si no quedas satisfecho, te devolvemos tu dinero.
+
+Itens:
+✅ Devolución rápida
+✅ Sin preguntas
+✅ Riesgo cero.
+
+---
+
+## FAQ
+
+1. ¿En qué formato recibiré el material?
+2. ¿Es válido para todas las edades?
+3. ¿Necesito experiencia previa como entrenador?
+4. ¿Puedo usarlo en academias o clubes?
+5. ¿El acceso es inmediato?
+
+Criar acordeones expansíveis.
+
+---
+
+## CTA FINAL
+
+Título:
+**700 Sesiones de Entrenamiento de Baloncesto**
+
+Texto:
+**YA ACLARÉ MIS DUDAS, ¡QUIERO COMPRAR!**
+
+Adicionar um grande botão de compra.
+
+---
+
+## RODAPÉ
+
+© 2026 Entrenamientos de Baloncesto. Todos los derechos reservados.
+
+Adicionar:
+
+* Política de Privacidad
+* Términos de Uso
+* Contacto
+
+---
+
+### REQUISITOS TÉCNICOS
+
+* Utilizar React + Tailwind CSS.
+* Design totalmente responsivo.
+* SEO otimizado.
+* Animações suaves com Framer Motion.
+* Botões com efeito hover.
+* Cards com sombras modernas.
+* Estrutura pronta para integração com checkout.
+* Código limpo e organizado em componentes reutilizáveis.
+* Criar aparência premium semelhante às melhores landing pages de produtos digitais esportivos.
