@@ -1,0 +1,8 @@
+{
+  "installCommand": "pnpm install",
+  "buildCommand": "cd artifacts/basketball-landing && NODE_ENV=production pnpm run build",
+  "outputDirectory": "artifacts/basketball-landing/dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
