@@ -83,16 +83,6 @@ export default function LandingPage() {
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
-            <FadeIn>
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 text-orange-500 text-sm font-semibold tracking-wide uppercase border border-orange-500/20 mb-8">
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span>
-                </span>
-                Oferta Limitada — Acceso Inmediato
-              </div>
-            </FadeIn>
-
             <FadeIn delay={0.1}>
               <h1 className="text-5xl md:text-7xl font-extrabold text-white tracking-tight leading-[1.1] mb-6">
                 700 Sesiones de <br className="hidden md:block" />
