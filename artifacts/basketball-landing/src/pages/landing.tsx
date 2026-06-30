@@ -340,7 +340,7 @@ const UpsellModal = ({ onClose }: { onClose: () => void }) => (
 
       <p className="text-[#c9a227] font-bold text-center mb-6">⚡ ¡Esta oferta solo aparece una vez!</p>
 
-      <a href="https://pay.hotmart.com/U106546551D?off=pjja75vs" target="_blank" rel="noopener noreferrer" className="block w-full h-14 bg-green-500 hover:bg-green-600 text-white font-bold rounded-xl text-lg mb-4 flex items-center justify-center transition-colors">
+      <a href="https://pay.hotmart.com/U106546551D?off=i2x8k7hx" target="_blank" rel="noopener noreferrer" className="block w-full h-14 bg-green-500 hover:bg-green-600 text-white font-bold rounded-xl text-lg mb-4 flex items-center justify-center transition-colors">
         Sí, quiero el Plan Premium por $7
       </a>
 
