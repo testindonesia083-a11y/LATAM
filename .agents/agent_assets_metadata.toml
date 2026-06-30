@@ -42,3 +42,21 @@ id = "xZrw7jBF7CkeZ6Ttefz8m"
 uri = "file://artifacts/basketball-landing/src/assets/images/gallery-tiro.png"
 type = "image"
 title = "Shooting drills diagram"
+
+[[generated]]
+id = "-LFLztmwvg8Ft3HzalbFW"
+uri = "file://artifacts/basketball-landing/src/assets/images/bonus-1.png"
+type = "image"
+title = "Basketball playbook diagram"
+
+[[generated]]
+id = "u-_8Di7FJk17dz7LheEfJ"
+uri = "file://artifacts/basketball-landing/src/assets/images/bonus-2.png"
+type = "image"
+title = "Basketball defense diagram"
+
+[[generated]]
+id = "62m572o3XPMwNejlNZcHx"
+uri = "file://artifacts/basketball-landing/src/assets/images/bonus-3.png"
+type = "image"
+title = "Basketball tactical plays"
