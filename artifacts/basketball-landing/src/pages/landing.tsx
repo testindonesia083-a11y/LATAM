@@ -555,13 +555,6 @@ export default function LandingPage() {
               <p className="mt-4 text-[#c9a227] text-xl font-medium tracking-wide">{currT.pricingSubtitle}</p>
             </div>
             
-            <div className="flex items-center justify-center gap-3 mb-8 bg-[#1a1a1a] border border-[#c9a227]/20 rounded-full px-6 py-3 max-w-sm mx-auto">
-              <div className="flex gap-1">
-                {[...Array(5)].map((_, i) => <div key={i} className="w-3 h-3 rounded-full bg-[#c9a227]" />)}
-                {[...Array(7)].map((_, i) => <div key={i} className="w-3 h-3 rounded-full bg-[#2a2a2a]" />)}
-              </div>
-              <span className="text-sm text-gray-300 font-medium">{currT.scarcity[0]} <span className="text-[#c9a227] font-bold">{currT.scarcity[1]}</span> {currT.scarcity[2]}</span>
-            </div>
           </FadeIn>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto items-center">
