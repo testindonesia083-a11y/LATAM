@@ -581,14 +581,12 @@ export default function LandingPage() {
                     </li>
                   ))}
                 </ul>
-                <a
-                  href="https://pay.hotmart.com/U106546551D?off=rdfmepd5"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <button
+                  onClick={() => setShowUpsell(true)}
                   className="block w-full h-14 text-lg font-bold border border-[#2a2a2a] text-gray-300 hover:bg-[#111111] hover:text-white rounded-xl flex items-center justify-center transition-colors bg-transparent"
                 >
                   {currT.planBasicBtn}
-                </a>
+                </button>
               </div>
             </FadeIn>
 
