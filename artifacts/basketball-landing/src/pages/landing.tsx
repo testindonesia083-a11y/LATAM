@@ -51,30 +51,148 @@ const t = {
     heroTitle2: 'Entrenamiento de Baloncesto',
     heroSubtitle: 'Planifica meses de entrenamiento en minutos con 700 sesiones listas para aplicar. Más organización, mejores resultados y jugadores más motivados desde el primer día.',
     heroCta: '¡QUIERO ACCEDER AHORA!',
+    // Section 2
     whatYouGet: 'Lo Que Vas A Recibir',
+    whatYouGetSub: 'Todo lo que necesitas para llevar a tu equipo al siguiente nivel.',
+    card1Title: '700 Sesiones Completas',
+    card1Desc: 'Sesiones organizadas con objetivos claros, tiempos definidos y metodologías validadas.',
+    card1Items: ['Ejercicios progresivos y estructurados', 'Acceso desde celular, tablet o computadora', 'Material listo para aplicar'],
+    card2Title: 'Planificaciones Paso a Paso',
+    card2Desc: 'Sesiones completas que facilitan la organización de toda la temporada.',
+    card2Items: ['Diferentes niveles de dificultad', 'Resultados medibles', 'Fácil implementación'],
+    card3Title: 'Para Todos los Equipos',
+    card3Desc: 'Ideal para entrenadores, academias y clubes deportivos.',
+    card3Items: ['Categorías infantiles', 'Categorías juveniles', 'Equipos adultos'],
+    // Section 3
     benefits: '¿Por Qué Elegir Nuestro Material?',
+    benefitsSub: 'Deja de improvisar. Eleva el nivel de tus prácticas con un sistema comprobado que maximiza el potencial de cada jugador y te ahorra cientos de horas.',
+    benefitItems: [
+      'Ahorra horas de planificación cada semana.',
+      'Nunca más te quedarás sin ideas para entrenar.',
+      'Mejora dramáticamente la calidad de tus entrenamientos.',
+      'Aumenta la motivación y compromiso de tus jugadores.',
+      'Organiza temporadas completas con facilidad.',
+      'Entrena con metodología y estructura profesional.'
+    ],
+    // Section 4
     bonuses: '¡Recibe 3 Bonos Increíbles GRATIS!',
+    bonusesSub: 'Total en bonos: $27 — ¡HOY GRATIS!',
+    bonusTodayFree: 'HOY GRATIS',
+    bonusNormalValue: 'Valor Normal',
+    bonusTitles: ['100 Sesiones Extra de Baloncesto', '40 Sesiones de Defensa', '75 Sesiones de Táctica y Desmarque'],
+    // Section 5
     pricing: 'Elige Tu Camino Al Éxito',
     pricingSubtitle: 'Una inversión única. Resultados de por vida.',
+    scarcity: ['Solo quedan', '5 plazas', 'a este precio'],
+    planBasicName: 'Plan Básico',
+    planBasicItems: ['350 Sesiones de Entrenamiento', 'Acceso Inmediato y de Por Vida', 'Garantía de 7 días', 'No incluye los bonos'],
+    planBasicBtn: 'ELEGIR BÁSICO',
+    planFullName: 'Plan Completo',
+    planFullBadge: 'RECOMENDADO',
+    planFullItems: ['700 Sesiones de Entrenamiento', 'Acceso Inmediato y de Por Vida', 'Garantía de 7 días', '100 Sesiones Extra (Bono)', '40 Sesiones de Defensa (Bono)', '75 Sesiones de Táctica y Desmarque (Bono)'],
+    planFullBtn: '¡OBTENER ACCESO COMPLETO!',
+    trustBadges: ['Pago Seguro', 'Garantía 7 Días', 'Acceso Inmediato'],
+    // Section 6
+    preview: 'Un Vistazo a Lo Que Recibirás',
+    previewSub: 'Material de calidad profesional, diseñado para entenderse fácilmente.',
+    previewTitles: ['Sesión de Defensa', 'Sesión de Ataque', 'Técnica Individual', 'Situaciones de Juego', 'Ejercicios de Pase', 'Ejercicios de Tiro'],
+    // Section 7
     testimonials: 'Lo Que Dicen Los Entrenadores',
+    // Section 8
     guarantee: 'GARANTÍA TOTAL DE 7 DÍAS',
+    guaranteeSub: 'Si no estás 100% satisfecho, te devolvemos cada centavo. Sin demoras. Sin preguntas.',
+    guaranteeItems: [
+      { title: 'Reembolso Inmediato', desc: 'Procesamos tu solicitud el mismo día que la envías.' },
+      { title: 'Sin Preguntas', desc: 'No te pediremos explicaciones ni te pondremos trabas.' },
+      { title: 'Riesgo Absoluto Cero', desc: 'Tu inversión está protegida. Tienes todo por ganar.' }
+    ],
+    // Section 9
     faq: 'Preguntas Frecuentes',
+    faqItems: [
+      { q: '¿En qué formato recibiré el material?', a: 'Recibirás acceso inmediato a una plataforma digital donde podrás ver, descargar e imprimir todas las sesiones en formato PDF de alta calidad.' },
+      { q: '¿Es válido para todas las edades?', a: 'Sí, las sesiones están categorizadas y pueden adaptarse fácilmente desde niveles infantiles hasta equipos adultos.' },
+      { q: '¿Necesito experiencia previa como entrenador?', a: 'No es estrictamente necesario. Las sesiones están explicadas paso a paso para que cualquier apasionado del baloncesto pueda aplicarlas.' },
+      { q: '¿Puedo usarlo en academias o clubes?', a: 'Absolutamente. Es el material ideal para estandarizar la metodología en academias y clubes deportivos.' },
+      { q: '¿El acceso es inmediato?', a: 'Sí. Una vez completado el pago, recibirás tus credenciales de acceso instantáneamente por correo electrónico.' }
+    ],
+    // Section 10
+    ctaTitle: '700 Sesiones de Entrenamiento de Baloncesto',
     finalCta: '¡QUIERO MIS 700 SESIONES AHORA!',
+    footer: '© 2026 Entrenamientos de Baloncesto. Todos los derechos reservados.',
   },
   en: {
     heroTitle1: '700 Basketball',
     heroTitle2: 'Training Sessions',
     heroSubtitle: 'Plan months of training in minutes with 700 ready-to-use sessions. More organization, better results, and more motivated players from day one.',
     heroCta: 'I WANT ACCESS NOW!',
+    // Section 2
     whatYouGet: 'What You Will Receive',
+    whatYouGetSub: 'Everything you need to take your team to the next level.',
+    card1Title: '700 Complete Sessions',
+    card1Desc: 'Sessions organized with clear objectives, defined times, and validated methodologies.',
+    card1Items: ['Progressive and structured exercises', 'Access from phone, tablet or computer', 'Ready-to-use material'],
+    card2Title: 'Step-by-Step Plans',
+    card2Desc: 'Complete sessions that make organizing an entire season easy.',
+    card2Items: ['Different difficulty levels', 'Measurable results', 'Easy implementation'],
+    card3Title: 'For All Teams',
+    card3Desc: 'Ideal for coaches, academies, and sports clubs.',
+    card3Items: ['Youth categories', 'Junior categories', 'Adult teams'],
+    // Section 3
     benefits: 'Why Choose Our Material?',
+    benefitsSub: "Stop improvising. Elevate your practice level with a proven system that maximizes each player's potential and saves you hundreds of hours.",
+    benefitItems: [
+      'Save hours of planning every week.',
+      'Never run out of training ideas again.',
+      'Dramatically improve the quality of your sessions.',
+      'Increase player motivation and commitment.',
+      'Organize complete seasons with ease.',
+      'Train with professional methodology and structure.'
+    ],
+    // Section 4
     bonuses: 'Receive 3 Amazing FREE Bonuses!',
+    bonusesSub: 'Total bonus value: $27 — TODAY FREE!',
+    bonusTodayFree: 'TODAY FREE',
+    bonusNormalValue: 'Normal Value',
+    bonusTitles: ['100 Extra Basketball Sessions', '40 Defense Sessions', '75 Tactics & Movement Sessions'],
+    // Section 5
     pricing: 'Choose Your Path To Success',
     pricingSubtitle: 'One-time investment. Lifetime results.',
+    scarcity: ['Only', '5 spots', 'left at this price'],
+    planBasicName: 'Basic Plan',
+    planBasicItems: ['350 Training Sessions', 'Immediate & Lifetime Access', '7-Day Guarantee', 'Bonuses not included'],
+    planBasicBtn: 'CHOOSE BASIC',
+    planFullName: 'Complete Plan',
+    planFullBadge: 'RECOMMENDED',
+    planFullItems: ['700 Training Sessions', 'Immediate & Lifetime Access', '7-Day Guarantee', '100 Extra Sessions (Bonus)', '40 Defense Sessions (Bonus)', '75 Tactics Sessions (Bonus)'],
+    planFullBtn: 'GET COMPLETE ACCESS!',
+    trustBadges: ['Secure Payment', '7-Day Guarantee', 'Immediate Access'],
+    // Section 6
+    preview: 'A Preview of What You Will Receive',
+    previewSub: 'Professional quality material, designed to be easily understood.',
+    previewTitles: ['Defense Session', 'Attack Session', 'Individual Technique', 'Game Situations', 'Passing Drills', 'Shooting Drills'],
+    // Section 7
     testimonials: 'What Coaches Are Saying',
+    // Section 8
     guarantee: 'TOTAL 7-DAY GUARANTEE',
+    guaranteeSub: 'If you are not 100% satisfied, we will refund every cent. No delays. No questions.',
+    guaranteeItems: [
+      { title: 'Immediate Refund', desc: 'We process your request the same day you send it.' },
+      { title: 'No Questions', desc: 'We will not ask for explanations or put up barriers.' },
+      { title: 'Absolutely Zero Risk', desc: 'Your investment is protected. You have everything to gain.' }
+    ],
+    // Section 9
     faq: 'Frequently Asked Questions',
+    faqItems: [
+      { q: 'In what format will I receive the material?', a: 'You will get immediate access to a digital platform where you can view, download, and print all sessions in high-quality PDF format.' },
+      { q: 'Is it valid for all ages?', a: 'Yes, sessions are categorized and can be adapted from youth levels to adult teams.' },
+      { q: 'Do I need prior experience as a coach?', a: 'Not strictly. The sessions are explained step by step so any basketball enthusiast can apply them.' },
+      { q: 'Can I use it in academies or clubs?', a: 'Absolutely. It is the ideal material for standardizing methodology in academies and sports clubs.' },
+      { q: 'Is access immediate?', a: 'Yes. Once payment is completed, you will receive your access credentials instantly by email.' }
+    ],
+    // Section 10
+    ctaTitle: '700 Basketball Training Sessions',
     finalCta: 'I WANT MY 700 SESSIONS NOW!',
+    footer: '© 2026 Basketball Training. All rights reserved.',
   }
 };
 
@@ -202,7 +320,7 @@ const TestimonialCarousel = () => {
 
 const UpsellModal = ({ onClose }: { onClose: () => void }) => (
   <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-[100] flex items-start justify-center overflow-y-auto pt-20 pb-10 px-4">
-    <div className="max-w-md w-full mx-auto bg-[#111111] rounded-2xl p-8 border border-[#c9a227]/30 shadow-2xl relative mt-20">
+    <div className="max-w-md w-full mx-auto bg-[#111111] rounded-2xl p-8 border border-[#c9a227]/30 shadow-2xl relative mt-10">
       <button onClick={onClose} className="absolute top-4 right-4 text-gray-400 hover:text-white">
         <X className="w-6 h-6" />
       </button>
@@ -248,6 +366,12 @@ export default function LandingPage() {
 
   const currT = t[lang];
 
+  const cards = [
+    { title: currT.card1Title, desc: currT.card1Desc, items: currT.card1Items },
+    { title: currT.card2Title, desc: currT.card2Desc, items: currT.card2Items },
+    { title: currT.card3Title, desc: currT.card3Desc, items: currT.card3Items },
+  ];
+
   return (
     <div className="min-h-screen bg-[#0a0a0a] font-sans selection:bg-[#c9a227] selection:text-black relative">
       
@@ -266,7 +390,7 @@ export default function LandingPage() {
       </div>
 
       {/* 1. HERO SECTION */}
-      <section className="relative pt-32 pb-32 overflow-hidden bg-[#0a0a0a]">
+      <section className="relative pt-20 pb-16 overflow-hidden bg-[#0a0a0a]">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl overflow-hidden pointer-events-none">
           <div className="absolute -top-[20%] -right-[10%] w-[50%] h-[50%] rounded-full bg-[#c9a227]/10 blur-[120px]" />
           <div className="absolute -bottom-[20%] -left-[10%] w-[50%] h-[50%] rounded-full bg-white/5 blur-[120px]" />
@@ -282,7 +406,7 @@ export default function LandingPage() {
             </FadeIn>
 
             <FadeIn delay={0.2}>
-              <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl leading-relaxed">
+              <p className="text-lg md:text-xl text-gray-400 mb-6 max-w-2xl leading-relaxed">
                 {currT.heroSubtitle}
               </p>
             </FadeIn>
@@ -299,7 +423,7 @@ export default function LandingPage() {
             </FadeIn>
           </div>
 
-          <FadeIn delay={0.4} className="mt-20 relative max-w-5xl mx-auto">
+          <FadeIn delay={0.4} className="mt-10 relative max-w-5xl mx-auto">
             <img 
               src={heroMockup} 
               alt="Dispositivos mostrando la plataforma" 
@@ -310,33 +434,17 @@ export default function LandingPage() {
       </section>
 
       {/* 2. LO QUE VAS A RECIBIR */}
-      <section className="py-24 bg-[#f8f6f1]">
+      <section className="py-14 bg-[#f8f6f1]">
         <div className="container mx-auto px-4">
           <FadeIn>
-            <div className="text-center mb-16">
+            <div className="text-center mb-10">
               <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a]">{currT.whatYouGet}</h2>
-              <p className="mt-4 text-gray-600 text-lg">Todo lo que necesitas para llevar a tu equipo al siguiente nivel.</p>
+              <p className="mt-4 text-gray-600 text-lg">{currT.whatYouGetSub}</p>
             </div>
           </FadeIn>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {[
-              {
-                title: "700 Sesiones Completas",
-                desc: "Sesiones organizadas con objetivos claros, tiempos definidos y metodologías validadas.",
-                items: ["Ejercicios progresivos y estructurados", "Acceso desde celular, tablet o computadora", "Material listo para aplicar"]
-              },
-              {
-                title: "Planificaciones Paso a Paso",
-                desc: "Sesiones completas que facilitan la organización de toda la temporada.",
-                items: ["Diferentes niveles de dificultad", "Resultados medibles", "Fácil implementación"]
-              },
-              {
-                title: "Para Todos los Equipos",
-                desc: "Ideal para entrenadores, academias y clubes deportivos.",
-                items: ["Categorías infantiles", "Categorías juveniles", "Equipos adultos"]
-              }
-            ].map((card, i) => (
+            {cards.map((card, i) => (
               <FadeIn key={i} delay={i * 0.1}>
                 <div className="bg-white p-8 rounded-2xl shadow-xl shadow-gray-200/50 border border-gray-100 h-full flex flex-col hover:border-[#c9a227]/30 transition-colors">
                   <div className="h-12 w-12 bg-[#c9a227]/10 text-[#c9a227] rounded-xl flex items-center justify-center mb-6">
@@ -360,13 +468,13 @@ export default function LandingPage() {
       </section>
 
       {/* 3. BENEFICIOS */}
-      <section className="py-24 bg-[#0a0a0a] relative overflow-hidden">
+      <section className="py-14 bg-[#0a0a0a] relative overflow-hidden">
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden select-none">
           <span className="text-[30vw] font-black text-[#c9a227]/5 leading-none tracking-tighter mix-blend-overlay">700</span>
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
-          <div className="flex flex-col lg:flex-row gap-16 max-w-6xl mx-auto items-center">
+          <div className="flex flex-col lg:flex-row gap-10 max-w-6xl mx-auto items-center">
             
             <div className="lg:w-5/12">
               <FadeIn>
@@ -374,27 +482,20 @@ export default function LandingPage() {
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#c9a227] to-[#e8c547]">{currT.benefits}</span>
                 </h2>
                 <p className="text-xl text-gray-400">
-                  Deja de improvisar. Eleva el nivel de tus prácticas con un sistema comprobado que maximiza el potencial de cada jugador y te ahorra cientos de horas.
+                  {currT.benefitsSub}
                 </p>
               </FadeIn>
             </div>
 
             <div className="lg:w-7/12 w-full">
               <div className="flex flex-col">
-                {[
-                  { text: "Ahorra horas de planificación cada semana." },
-                  { text: "Nunca más te quedarás sin ideas para entrenar." },
-                  { text: "Mejora dramáticamente la calidad de tus entrenamientos." },
-                  { text: "Aumenta la motivación y compromiso de tus jugadores." },
-                  { text: "Organiza temporadas completas con facilidad." },
-                  { text: "Entrena con metodología y estructura profesional." }
-                ].map((benefit, i) => (
+                {currT.benefitItems.map((benefit, i) => (
                   <FadeIn key={i} delay={i * 0.1}>
                     <div className="flex items-center gap-6 py-6 border-b border-[#2a2a2a] group hover:bg-[#111111] transition-colors px-4 rounded-lg">
                       <div className="w-12 h-12 shrink-0 rounded-full border border-[#c9a227] flex items-center justify-center text-[#c9a227] font-bold text-lg group-hover:bg-[#c9a227] group-hover:text-black transition-colors">
                         {(i + 1).toString().padStart(2, '0')}
                       </div>
-                      <p className="text-gray-200 text-lg font-medium">{benefit.text}</p>
+                      <p className="text-gray-200 text-lg font-medium">{benefit}</p>
                     </div>
                   </FadeIn>
                 ))}
@@ -406,20 +507,20 @@ export default function LandingPage() {
       </section>
 
       {/* 4. BONOS GRATIS */}
-      <section className="py-24 bg-[#f8f6f1]">
+      <section className="py-14 bg-[#f8f6f1]">
         <div className="container mx-auto px-4">
           <FadeIn>
-            <div className="text-center mb-16">
+            <div className="text-center mb-10">
               <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a]">{currT.bonuses}</h2>
-              <p className="mt-4 text-[#c9a227] font-bold text-xl">Total en bonos: $27 — ¡HOY GRATIS!</p>
+              <p className="mt-4 text-[#c9a227] font-bold text-xl">{currT.bonusesSub}</p>
             </div>
           </FadeIn>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {[
-              { img: bonus1Img, title: "100 Sesiones Extra de Baloncesto", val: 12 },
-              { img: bonus2Img, title: "40 Sesiones de Defensa", val: 8 },
-              { img: bonus3Img, title: "75 Sesiones de Táctica y Desmarque", val: 7 }
+              { img: bonus1Img, title: currT.bonusTitles[0], val: 12 },
+              { img: bonus2Img, title: currT.bonusTitles[1], val: 8 },
+              { img: bonus3Img, title: currT.bonusTitles[2], val: 7 }
             ].map((bono, i) => (
               <FadeIn key={i} delay={i * 0.1} className="h-full">
                 <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden flex flex-col h-full border border-[#2a2a2a] hover:border-[#c9a227] transition-colors group shadow-xl">
@@ -434,8 +535,8 @@ export default function LandingPage() {
                     </div>
                     <h3 className="text-2xl font-bold text-white mb-6 flex-grow">{bono.title}</h3>
                     <div className="flex flex-col items-center gap-1 text-lg w-full pt-6 border-t border-[#2a2a2a]">
-                      <span className="text-gray-500 line-through text-sm">Valor Normal: ${bono.val}</span>
-                      <span className="text-[#e8c547] font-black text-xl">HOY GRATIS</span>
+                      <span className="text-gray-500 line-through text-sm">{currT.bonusNormalValue}: ${bono.val}</span>
+                      <span className="text-[#e8c547] font-black text-xl">{currT.bonusTodayFree}</span>
                     </div>
                   </div>
                 </div>
@@ -446,7 +547,7 @@ export default function LandingPage() {
       </section>
 
       {/* 5. PRICING */}
-      <section id="pricing" className="py-32 bg-[#0a0a0a]">
+      <section id="pricing" className="py-16 bg-[#0a0a0a]">
         <div className="container mx-auto px-4">
           <FadeIn>
             <div className="text-center mb-10">
@@ -454,12 +555,12 @@ export default function LandingPage() {
               <p className="mt-4 text-[#c9a227] text-xl font-medium tracking-wide">{currT.pricingSubtitle}</p>
             </div>
             
-            <div className="flex items-center justify-center gap-3 mb-12 bg-[#1a1a1a] border border-[#c9a227]/20 rounded-full px-6 py-3 max-w-sm mx-auto">
+            <div className="flex items-center justify-center gap-3 mb-8 bg-[#1a1a1a] border border-[#c9a227]/20 rounded-full px-6 py-3 max-w-sm mx-auto">
               <div className="flex gap-1">
                 {[...Array(5)].map((_, i) => <div key={i} className="w-3 h-3 rounded-full bg-[#c9a227]" />)}
                 {[...Array(7)].map((_, i) => <div key={i} className="w-3 h-3 rounded-full bg-[#2a2a2a]" />)}
               </div>
-              <span className="text-sm text-gray-300 font-medium">Solo quedan <span className="text-[#c9a227] font-bold">5 plazas</span> a este precio</span>
+              <span className="text-sm text-gray-300 font-medium">{currT.scarcity[0]} <span className="text-[#c9a227] font-bold">{currT.scarcity[1]}</span> {currT.scarcity[2]}</span>
             </div>
           </FadeIn>
 
@@ -467,19 +568,21 @@ export default function LandingPage() {
             {/* Plan Basico */}
             <FadeIn>
               <div className="bg-[#1a1a1a] rounded-3xl p-10 border border-[#2a2a2a] shadow-lg">
-                <h3 className="text-2xl font-bold text-white mb-2">Plan Básico</h3>
+                <h3 className="text-2xl font-bold text-white mb-2">{currT.planBasicName}</h3>
                 <div className="flex items-end gap-2 mb-8 border-b border-[#2a2a2a] pb-8">
                   <span className="text-xl text-gray-500 line-through mb-1">$14</span>
                   <span className="text-5xl font-black text-white">$5</span>
                 </div>
                 <ul className="space-y-5 mb-10">
-                  <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-[#c9a227] shrink-0" /><span className="text-gray-300">350 Sesiones de Entrenamiento</span></li>
-                  <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-[#c9a227] shrink-0" /><span className="text-gray-300">Acceso Inmediato y de Por Vida</span></li>
-                  <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-[#c9a227] shrink-0" /><span className="text-gray-300">Garantía de 7 días</span></li>
-                  <li className="flex items-start gap-3 opacity-50"><X className="w-5 h-5 text-red-500 shrink-0" /><span className="text-gray-500 line-through">No incluye los bonos</span></li>
+                  {currT.planBasicItems.map((item, i) => (
+                    <li key={i} className={`flex items-start gap-3 ${i === 3 ? 'opacity-50' : ''}`}>
+                      {i === 3 ? <X className="w-5 h-5 text-red-500 shrink-0" /> : <CheckCircle2 className="w-5 h-5 text-[#c9a227] shrink-0" />}
+                      <span className={i === 3 ? "text-gray-500 line-through" : "text-gray-300"}>{item}</span>
+                    </li>
+                  ))}
                 </ul>
                 <Button onClick={() => setShowUpsell(true)} variant="outline" className="w-full h-14 text-lg font-bold border-[#2a2a2a] text-gray-300 hover:bg-[#111111] hover:text-white rounded-xl">
-                  ELEGIR BÁSICO
+                  {currT.planBasicBtn}
                 </Button>
               </div>
             </FadeIn>
@@ -491,24 +594,17 @@ export default function LandingPage() {
                 <div className="absolute inset-[2px] bg-[#111111] rounded-[22px] -z-10" />
 
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-[#c9a227] to-[#e8c547] text-black px-8 py-2 rounded-full font-bold text-sm tracking-widest shadow-lg whitespace-nowrap">
-                  RECOMENDADO
+                  {currT.planFullBadge}
                 </div>
                 
-                <h3 className="text-2xl font-bold text-white mb-2">Plan Completo</h3>
+                <h3 className="text-2xl font-bold text-white mb-2">{currT.planFullName}</h3>
                 <div className="flex items-end gap-2 mb-8 border-b border-[#2a2a2a] pb-8">
                   <span className="text-xl text-gray-500 line-through mb-2">$37</span>
                   <span className="text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-[#c9a227] to-[#e8c547]">$15</span>
                 </div>
                 
                 <ul className="space-y-5 mb-10">
-                  {[
-                    "700 Sesiones de Entrenamiento",
-                    "Acceso Inmediato y de Por Vida",
-                    "Garantía de 7 días",
-                    "100 Sesiones Extra (Bono)",
-                    "40 Sesiones de Defensa (Bono)",
-                    "75 Sesiones de Táctica y Desmarque (Bono)"
-                  ].map((item, i) => (
+                  {currT.planFullItems.map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-[#c9a227] shrink-0" />
                       <span className="text-white font-medium">{item}</span>
@@ -517,7 +613,7 @@ export default function LandingPage() {
                 </ul>
 
                 <Button className="w-full h-16 text-lg font-bold bg-[#c9a227] hover:bg-[#a8831c] text-black mb-4 rounded-xl shadow-[0_0_30px_-5px_rgba(201,162,39,0.4)] transition-transform hover:scale-105 active:scale-95">
-                  ¡OBTENER ACCESO COMPLETO!
+                  {currT.planFullBtn}
                 </Button>
                 
               </div>
@@ -528,15 +624,15 @@ export default function LandingPage() {
             <div className="flex flex-wrap justify-center gap-8 mt-16 pt-8 border-t border-[#2a2a2a] max-w-4xl mx-auto">
               <div className="flex items-center gap-3 text-gray-400">
                 <Lock className="w-5 h-5 text-[#c9a227]" />
-                <span className="font-medium text-sm tracking-wide uppercase">Pago Seguro</span>
+                <span className="font-medium text-sm tracking-wide uppercase">{currT.trustBadges[0]}</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <ShieldCheck className="w-5 h-5 text-[#c9a227]" />
-                <span className="font-medium text-sm tracking-wide uppercase">Garantía 7 Días</span>
+                <span className="font-medium text-sm tracking-wide uppercase">{currT.trustBadges[1]}</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <Zap className="w-5 h-5 text-[#c9a227]" />
-                <span className="font-medium text-sm tracking-wide uppercase">Acceso Inmediato</span>
+                <span className="font-medium text-sm tracking-wide uppercase">{currT.trustBadges[2]}</span>
               </div>
             </div>
           </FadeIn>
@@ -544,23 +640,23 @@ export default function LandingPage() {
       </section>
 
       {/* 6. VISTA PREVIA */}
-      <section className="py-24 bg-[#f8f6f1]">
+      <section className="py-14 bg-[#f8f6f1]">
         <div className="container mx-auto px-4">
           <FadeIn>
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a]">Un Vistazo a Lo Que Recibirás</h2>
-              <p className="mt-4 text-gray-600 text-lg">Material de calidad profesional, diseñado para entenderse fácilmente.</p>
+            <div className="text-center mb-10">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a]">{currT.preview}</h2>
+              <p className="mt-4 text-gray-600 text-lg">{currT.previewSub}</p>
             </div>
           </FadeIn>
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 max-w-6xl mx-auto">
             {[
-              { img: galleryDefensa, title: "Sesión de Defensa" },
-              { img: galleryAtaque, title: "Sesión de Ataque" },
-              { img: galleryTecnica, title: "Técnica Individual" },
-              { img: gallerySituaciones, title: "Situaciones de Juego" },
-              { img: galleryPase, title: "Ejercicios de Pase" },
-              { img: galleryTiro, title: "Ejercicios de Tiro" }
+              { img: galleryDefensa, title: currT.previewTitles[0] },
+              { img: galleryAtaque, title: currT.previewTitles[1] },
+              { img: galleryTecnica, title: currT.previewTitles[2] },
+              { img: gallerySituaciones, title: currT.previewTitles[3] },
+              { img: galleryPase, title: currT.previewTitles[4] },
+              { img: galleryTiro, title: currT.previewTitles[5] }
             ].map((item, i) => (
               <FadeIn key={i} delay={i * 0.1}>
                 <div className="group relative rounded-2xl overflow-hidden shadow-md aspect-4/3 cursor-pointer">
@@ -577,10 +673,10 @@ export default function LandingPage() {
       </section>
 
       {/* 7. TESTIMONIOS - CAROUSEL */}
-      <section className="py-24 bg-[#0a0a0a]">
+      <section className="py-14 bg-[#0a0a0a]">
         <div className="container mx-auto px-4">
           <FadeIn>
-            <div className="text-center mb-16">
+            <div className="text-center mb-10">
               <h2 className="text-3xl md:text-4xl font-bold text-white">{currT.testimonials}</h2>
             </div>
           </FadeIn>
@@ -590,14 +686,14 @@ export default function LandingPage() {
       </section>
 
       {/* 8. GARANTÍA */}
-      <section className="py-32 bg-[#0a0a0a] relative overflow-hidden border-y border-[#2a2a2a]">
+      <section className="py-16 bg-[#0a0a0a] relative overflow-hidden border-y border-[#2a2a2a]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#c9a227]/10 via-transparent to-transparent opacity-80" />
         
         <div className="container mx-auto px-4 relative z-10">
           <FadeIn>
             <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
               
-              <div className="relative mb-12">
+              <div className="relative mb-8">
                 <div className="absolute inset-0 bg-[#c9a227] blur-3xl opacity-20 rounded-full" />
                 <div className="w-32 h-32 rounded-full bg-gradient-to-br from-[#e8c547] to-[#a8831c] p-1 shadow-2xl relative z-10">
                   <div className="w-full h-full bg-[#0a0a0a] rounded-full flex items-center justify-center border border-[#c9a227]/50">
@@ -611,16 +707,16 @@ export default function LandingPage() {
               <h3 className="text-4xl md:text-6xl font-black text-white mb-6 tracking-tight">{currT.guarantee}</h3>
               
               <p className="text-[#e8c547] text-xl md:text-2xl font-medium mb-12 max-w-2xl leading-relaxed">
-                Si no estás 100% satisfecho, te devolvemos cada centavo. Sin demoras. Sin preguntas.
+                {currT.guaranteeSub}
               </p>
 
-              <div className="w-full h-px bg-gradient-to-r from-transparent via-[#c9a227]/50 to-transparent mb-16 max-w-lg" />
+              <div className="w-full h-px bg-gradient-to-r from-transparent via-[#c9a227]/50 to-transparent mb-10 max-w-lg" />
 
               <div className="grid md:grid-cols-3 gap-8 w-full">
                 {[
-                  { icon: Clock, title: "Reembolso Inmediato", desc: "Procesamos tu solicitud el mismo día que la envías." },
-                  { icon: Lightbulb, title: "Sin Preguntas", desc: "No te pediremos explicaciones ni te pondremos trabas." },
-                  { icon: ShieldCheck, title: "Riesgo Absoluto Cero", desc: "Tu inversión está protegida. Tienes todo por ganar." }
+                  { icon: Clock, title: currT.guaranteeItems[0].title, desc: currT.guaranteeItems[0].desc },
+                  { icon: Lightbulb, title: currT.guaranteeItems[1].title, desc: currT.guaranteeItems[1].desc },
+                  { icon: ShieldCheck, title: currT.guaranteeItems[2].title, desc: currT.guaranteeItems[2].desc }
                 ].map((item, i) => (
                   <div key={i} className="flex flex-col items-center">
                     <div className="w-12 h-12 rounded-full bg-[#111111] border border-[#2a2a2a] flex items-center justify-center mb-4 text-[#c9a227]">
@@ -638,21 +734,15 @@ export default function LandingPage() {
       </section>
 
       {/* 9. FAQ */}
-      <section className="py-24 bg-[#f8f6f1]">
+      <section className="py-14 bg-[#f8f6f1]">
         <div className="container mx-auto px-4 max-w-3xl">
           <FadeIn>
-            <div className="text-center mb-12">
+            <div className="text-center mb-8">
               <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a]">{currT.faq}</h2>
             </div>
             
             <Accordion type="single" collapsible className="w-full bg-white rounded-2xl shadow-sm border border-gray-100 p-2">
-              {[
-                { q: "¿En qué formato recibiré el material?", a: "Recibirás acceso inmediato a una plataforma digital donde podrás ver, descargar e imprimir todas las sesiones en formato PDF de alta calidad." },
-                { q: "¿Es válido para todas las edades?", a: "Sí, las sesiones están categorizadas y pueden adaptarse fácilmente desde niveles infantiles hasta equipos adultos." },
-                { q: "¿Necesito experiencia previa como entrenador?", a: "No es estrictamente necesario. Las sesiones están explicadas paso a paso para que cualquier apasionado del baloncesto pueda aplicarlas." },
-                { q: "¿Puedo usarlo en academias o clubes?", a: "Absolutamente. Es el material ideal para estandarizar la metodología en academias y clubes deportivos." },
-                { q: "¿El acceso es inmediato?", a: "Sí. Una vez completado el pago, recibirás tus credenciales de acceso instantáneamente por correo electrónico." }
-              ].map((faq, i) => (
+              {currT.faqItems.map((faq, i) => (
                 <AccordionItem key={i} value={`item-${i}`} className="border-b last:border-0 border-gray-100">
                   <AccordionTrigger className="text-left font-bold text-gray-800 hover:text-[#c9a227] hover:no-underline px-4 py-6">
                     {faq.q}
@@ -668,16 +758,16 @@ export default function LandingPage() {
       </section>
 
       {/* 10. CTA FINAL */}
-      <section className="py-32 bg-[#0a0a0a] relative overflow-hidden">
+      <section className="py-16 bg-[#0a0a0a] relative overflow-hidden">
         <div className="absolute inset-0 opacity-15 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#c9a227] via-transparent to-transparent" />
         <div className="container mx-auto px-4 relative z-10">
           <FadeIn className="text-center max-w-4xl mx-auto">
             <img src={heroMockup} alt="Mockup" className="mx-auto mb-8 max-w-2xl w-full rounded-2xl shadow-[0_0_60px_-20px_rgba(201,162,39,0.4)]" />
-            <h2 className="text-4xl md:text-6xl font-black text-white mb-8">700 Sesiones de Entrenamiento de Baloncesto</h2>
+            <h2 className="text-4xl md:text-6xl font-black text-white mb-8">{currT.ctaTitle}</h2>
             <Button 
               onClick={scrollToPricing}
               size="lg" 
-              className="w-full md:w-auto text-xl h-20 px-16 bg-[#c9a227] hover:bg-[#a8831c] text-black font-bold rounded-full shadow-[0_0_50px_-10px_rgba(201,162,39,0.6)] transition-all hover:scale-105 active:scale-95"
+              className="w-full md:w-auto text-xl h-14 px-16 bg-[#c9a227] hover:bg-[#a8831c] text-black font-bold rounded-full shadow-[0_0_50px_-10px_rgba(201,162,39,0.6)] transition-all hover:scale-105 active:scale-95"
             >
               {currT.finalCta}
             </Button>
@@ -689,7 +779,7 @@ export default function LandingPage() {
       <footer className="bg-[#060606] py-12 border-t border-[#2a2a2a]">
         <div className="container mx-auto px-4 flex flex-col items-center justify-center">
           <p className="text-gray-500 text-sm text-center">
-            © 2026 Entrenamientos de Baloncesto. Todos los derechos reservados.
+            {currT.footer}
           </p>
         </div>
       </footer>
