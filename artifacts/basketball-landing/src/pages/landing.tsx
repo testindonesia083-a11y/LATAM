@@ -345,7 +345,7 @@ const UpsellModal = ({ onClose }: { onClose: () => void }) => (
       </a>
 
       <div className="text-center">
-        <a href="https://pay.hotmart.com/U106546551D?off=i2x8k7hx" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-300 text-sm cursor-pointer underline">
+        <a href="https://pay.hotmart.com/U106546551D?off=rdfmepd5" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-300 text-sm cursor-pointer underline">
           No, continuar con el Plan Básico
         </a>
       </div>
