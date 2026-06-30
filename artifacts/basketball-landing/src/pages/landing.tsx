@@ -36,6 +36,47 @@ import galleryTiro from "../assets/images/gallery-tiro.png";
 import bonus1Img from "../assets/images/bonus-1.png";
 import bonus2Img from "../assets/images/bonus-2.png";
 import bonus3Img from "../assets/images/bonus-3.png";
+import test1 from "../assets/images/testimonial-1.png";
+import test2 from "../assets/images/testimonial-2.png";
+import test3 from "../assets/images/testimonial-3.png";
+import test4 from "../assets/images/testimonial-4.png";
+import test5 from "../assets/images/testimonial-5.png";
+import test6 from "../assets/images/testimonial-6.png";
+import test7 from "../assets/images/testimonial-7.png";
+import test8 from "../assets/images/testimonial-8.png";
+
+const t = {
+  es: {
+    heroTitle1: '700 Sesiones de',
+    heroTitle2: 'Entrenamiento de Baloncesto',
+    heroSubtitle: 'Planifica meses de entrenamiento en minutos con 700 sesiones listas para aplicar. Más organización, mejores resultados y jugadores más motivados desde el primer día.',
+    heroCta: '¡QUIERO ACCEDER AHORA!',
+    whatYouGet: 'Lo Que Vas A Recibir',
+    benefits: '¿Por Qué Elegir Nuestro Material?',
+    bonuses: '¡Recibe 3 Bonos Increíbles GRATIS!',
+    pricing: 'Elige Tu Camino Al Éxito',
+    pricingSubtitle: 'Una inversión única. Resultados de por vida.',
+    testimonials: 'Lo Que Dicen Los Entrenadores',
+    guarantee: 'GARANTÍA TOTAL DE 7 DÍAS',
+    faq: 'Preguntas Frecuentes',
+    finalCta: '¡QUIERO MIS 700 SESIONES AHORA!',
+  },
+  en: {
+    heroTitle1: '700 Basketball',
+    heroTitle2: 'Training Sessions',
+    heroSubtitle: 'Plan months of training in minutes with 700 ready-to-use sessions. More organization, better results, and more motivated players from day one.',
+    heroCta: 'I WANT ACCESS NOW!',
+    whatYouGet: 'What You Will Receive',
+    benefits: 'Why Choose Our Material?',
+    bonuses: 'Receive 3 Amazing FREE Bonuses!',
+    pricing: 'Choose Your Path To Success',
+    pricingSubtitle: 'One-time investment. Lifetime results.',
+    testimonials: 'What Coaches Are Saying',
+    guarantee: 'TOTAL 7-DAY GUARANTEE',
+    faq: 'Frequently Asked Questions',
+    finalCta: 'I WANT MY 700 SESSIONS NOW!',
+  }
+};
 
 const CountdownTimer = () => {
   const [timeLeft, setTimeLeft] = useState(15 * 60);
@@ -74,14 +115,14 @@ const FadeIn = ({ children, delay = 0, className = "" }: { children: React.React
 
 const TestimonialCarousel = () => {
   const testimonials = [
-    { text: "Este material transformó completamente la forma en que organizo mis entrenamientos.", name: "Alejandro García", role: "Entrenador Formativo" },
-    { text: "Increíble valor por el precio. Todo está organizado y listo para aplicar.", name: "Daniel Herrera", role: "Director Técnico" },
-    { text: "La progresión de las sesiones es perfecta y mis jugadores han mejorado muchísimo.", name: "Ricardo Mendoza", role: "Entrenador y Preparador Físico" },
-    { text: "Ahorré horas de planificación. Ahora mis prácticas son más dinámicas y efectivas.", name: "Carlos Vega", role: "Entrenador Juvenil" },
-    { text: "La variedad de sesiones es impresionante. Siempre encuentro algo nuevo para mis jugadores.", name: "Marcos Ruiz", role: "Preparador Físico" },
-    { text: "Material profesional al alcance de cualquier entrenador. Totalmente recomendado.", name: "Javier Torres", role: "Entrenador de Academia" },
-    { text: "Implementé estas sesiones con tres categorías distintas y los resultados fueron inmediatos.", name: "Luis Fernández", role: "Coordinador Técnico" },
-    { text: "Desde que uso este material, la motivación de mis jugadores mejoró notablemente.", name: "Pablo Sánchez", role: "Entrenador Club Amateur" }
+    { text: "Este material transformó completamente la forma en que organizo mis entrenamientos.", name: "Alejandro García", role: "Entrenador Formativo", photo: test1 },
+    { text: "Increíble valor por el precio. Todo está organizado y listo para aplicar.", name: "Daniel Herrera", role: "Director Técnico", photo: test2 },
+    { text: "La progresión de las sesiones es perfecta y mis jugadores han mejorado muchísimo.", name: "Ricardo Mendoza", role: "Entrenador y Preparador Físico", photo: test3 },
+    { text: "Ahorré horas de planificación. Ahora mis prácticas son más dinámicas y efectivas.", name: "Carlos Vega", role: "Entrenador Juvenil", photo: test4 },
+    { text: "La variedad de sesiones es impresionante. Siempre encuentro algo nuevo para mis jugadores.", name: "Marcos Ruiz", role: "Preparador Físico", photo: test5 },
+    { text: "Material profesional al alcance de cualquier entrenador. Totalmente recomendado.", name: "Javier Torres", role: "Entrenador de Academia", photo: test6 },
+    { text: "Implementé estas sesiones con tres categorías distintas y los resultados fueron inmediatos.", name: "Luis Fernández", role: "Coordinador Técnico", photo: test7 },
+    { text: "Desde que uso este material, la motivación de mis jugadores mejoró notablemente.", name: "Pablo Sánchez", role: "Entrenador Club Amateur", photo: test8 }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -130,9 +171,12 @@ const TestimonialCarousel = () => {
                 ))}
               </div>
               <p className="text-gray-300 text-lg italic mb-6">"{testi.text}"</p>
-              <div>
-                <h4 className="text-white font-bold">{testi.name}</h4>
-                <span className="text-[#c9a227] text-sm">{testi.role}</span>
+              <div className="flex items-center gap-4">
+                <img src={testi.photo} alt={testi.name} className="w-12 h-12 rounded-full object-cover border-2 border-[#c9a227]" />
+                <div>
+                  <h4 className="text-white font-bold">{testi.name}</h4>
+                  <span className="text-[#c9a227] text-sm">{testi.role}</span>
+                </div>
               </div>
             </div>
           ))}
@@ -156,22 +200,73 @@ const TestimonialCarousel = () => {
   );
 };
 
+const UpsellModal = ({ onClose }: { onClose: () => void }) => (
+  <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-[100] flex items-start justify-center overflow-y-auto pt-20 pb-10 px-4">
+    <div className="max-w-md w-full mx-auto bg-[#111111] rounded-2xl p-8 border border-[#c9a227]/30 shadow-2xl relative mt-20">
+      <button onClick={onClose} className="absolute top-4 right-4 text-gray-400 hover:text-white">
+        <X className="w-6 h-6" />
+      </button>
+      <div className="text-center mb-6">
+        <span className="text-4xl inline-block mb-4">🏀</span>
+        <h3 className="text-2xl font-bold text-white mb-2">¡ESPERA! Tenemos Una Oferta Única Para Ti</h3>
+        <p className="text-[#c9a227] font-medium text-lg">Actualiza a la Oferta Premium ahora por solo $7 (en vez de $15)</p>
+      </div>
+      
+      <ul className="space-y-4 mb-8 text-gray-200">
+        <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-green-500 shrink-0 mt-0.5" /><span>700 Sesiones de Entrenamiento (en lugar de 350)</span></li>
+        <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-green-500 shrink-0 mt-0.5" /><span>100 Sesiones Extra de Baloncesto</span></li>
+        <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-green-500 shrink-0 mt-0.5" /><span>40 Sesiones de Defensa en Baloncesto</span></li>
+        <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-green-500 shrink-0 mt-0.5" /><span>75 Sesiones de Táctica y Desmarque</span></li>
+        <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-green-500 shrink-0 mt-0.5" /><span>Acceso inmediato y de por vida</span></li>
+      </ul>
+
+      <p className="text-[#c9a227] font-bold text-center mb-6">⚡ ¡Esta oferta solo aparece una vez!</p>
+
+      <Button className="w-full h-14 bg-green-500 hover:bg-green-600 text-white font-bold rounded-xl text-lg mb-4">
+        Sí, quiero el Plan Premium por $7
+      </Button>
+
+      <div className="text-center">
+        <button onClick={onClose} className="text-gray-500 hover:text-gray-300 text-sm cursor-pointer underline">
+          No, continuar con el Plan Básico
+        </button>
+      </div>
+    </div>
+  </div>
+);
+
 export default function LandingPage() {
+  const [lang, setLang] = useState<'es'|'en'>('es');
+  const [showUpsell, setShowUpsell] = useState(false);
+
   const scrollToPricing = () => {
     document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const today = new Date();
+  const todayStr = today.toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' }).replace(/\//g, '/');
+
+  const currT = t[lang];
+
   return (
-    <div className="min-h-screen bg-[#0a0a0a] font-sans selection:bg-[#c9a227] selection:text-black">
+    <div className="min-h-screen bg-[#0a0a0a] font-sans selection:bg-[#c9a227] selection:text-black relative">
       
+      {showUpsell && <UpsellModal onClose={() => setShowUpsell(false)} />}
+
+      <button
+        onClick={() => setLang(l => l === 'es' ? 'en' : 'es')}
+        className="fixed top-14 right-4 bg-[#1a1a1a]/90 backdrop-blur-sm border border-[#2a2a2a] rounded-full px-3 py-1.5 text-white text-xs font-bold cursor-pointer hover:border-[#c9a227] transition-colors z-[99]"
+      >
+        {lang === 'es' ? '🇪🇸 ES' : '🇺🇸 EN'}
+      </button>
+
       {/* 0. ANNOUNCEMENT BAR */}
       <div className="fixed top-0 left-0 w-full bg-[#dc2626] text-white text-center py-2 z-50 font-bold tracking-wide shadow-md">
-        🏀 DESCUENTO EXCLUSIVO SOLO HOY • 28/06/2026 🏀
+        🏀 DESCUENTO EXCLUSIVO SOLO HOY • {todayStr} 🏀
       </div>
 
       {/* 1. HERO SECTION */}
       <section className="relative pt-32 pb-32 overflow-hidden bg-[#0a0a0a]">
-        {/* Background elements */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl overflow-hidden pointer-events-none">
           <div className="absolute -top-[20%] -right-[10%] w-[50%] h-[50%] rounded-full bg-[#c9a227]/10 blur-[120px]" />
           <div className="absolute -bottom-[20%] -left-[10%] w-[50%] h-[50%] rounded-full bg-white/5 blur-[120px]" />
@@ -181,14 +276,14 @@ export default function LandingPage() {
           <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
             <FadeIn delay={0.1}>
               <h1 className="text-5xl md:text-7xl font-extrabold text-white tracking-tight leading-[1.1] mb-6">
-                700 Sesiones de <br className="hidden md:block" />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#c9a227] to-[#e8c547]">Entrenamiento de Baloncesto</span>
+                {currT.heroTitle1} <br className="hidden md:block" />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#c9a227] to-[#e8c547]">{currT.heroTitle2}</span>
               </h1>
             </FadeIn>
 
             <FadeIn delay={0.2}>
               <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl leading-relaxed">
-                Planifica meses de entrenamiento en minutos con 700 sesiones listas para aplicar. Más organización, mejores resultados y jugadores más motivados desde el primer día.
+                {currT.heroSubtitle}
               </p>
             </FadeIn>
 
@@ -198,7 +293,7 @@ export default function LandingPage() {
                 size="lg" 
                 className="w-full md:w-auto text-lg h-16 px-12 bg-[#c9a227] hover:bg-[#a8831c] text-black font-bold rounded-full shadow-[0_0_40px_-10px_rgba(201,162,39,0.5)] transition-all hover:scale-105 active:scale-95"
               >
-                ¡QUIERO ACCEDER AHORA!
+                {currT.heroCta}
               </Button>
               <CountdownTimer />
             </FadeIn>
@@ -220,7 +315,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-4">
           <FadeIn>
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a]">Lo Que Vas A Recibir</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a]">{currT.whatYouGet}</h2>
               <p className="mt-4 text-gray-600 text-lg">Todo lo que necesitas para llevar a tu equipo al siguiente nivel.</p>
             </div>
           </FadeIn>
@@ -265,9 +360,8 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* 3. BENEFICIOS - REDESIGNED */}
+      {/* 3. BENEFICIOS */}
       <section className="py-24 bg-[#0a0a0a] relative overflow-hidden">
-        {/* Watermark */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden select-none">
           <span className="text-[30vw] font-black text-[#c9a227]/5 leading-none tracking-tighter mix-blend-overlay">700</span>
         </div>
@@ -278,7 +372,7 @@ export default function LandingPage() {
             <div className="lg:w-5/12">
               <FadeIn>
                 <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-                  La Metodología Que <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#c9a227] to-[#e8c547]">Transforma Entrenadores</span>
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#c9a227] to-[#e8c547]">{currT.benefits}</span>
                 </h2>
                 <p className="text-xl text-gray-400">
                   Deja de improvisar. Eleva el nivel de tus prácticas con un sistema comprobado que maximiza el potencial de cada jugador y te ahorra cientos de horas.
@@ -312,12 +406,12 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* 4. BONOS GRATIS - REDESIGNED */}
+      {/* 4. BONOS GRATIS */}
       <section className="py-24 bg-[#f8f6f1]">
         <div className="container mx-auto px-4">
           <FadeIn>
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a]">¡Recibe 3 Bonos Increíbles GRATIS!</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a]">{currT.bonuses}</h2>
               <p className="mt-4 text-[#c9a227] font-bold text-xl">Total en bonos: $27 — ¡HOY GRATIS!</p>
             </div>
           </FadeIn>
@@ -330,13 +424,11 @@ export default function LandingPage() {
             ].map((bono, i) => (
               <FadeIn key={i} delay={i * 0.1} className="h-full">
                 <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden flex flex-col h-full border border-[#2a2a2a] hover:border-[#c9a227] transition-colors group shadow-xl">
-                  {/* Image header */}
                   <div className="h-48 relative overflow-hidden">
                     <img src={bono.img} alt={bono.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#1a1a1a]" />
                   </div>
                   
-                  {/* Content */}
                   <div className="p-8 flex-grow flex flex-col items-center text-center relative z-10 -mt-8">
                     <div className="inline-block px-4 py-1.5 bg-[#c9a227] text-black font-bold text-sm rounded-full mb-6 uppercase tracking-widest shadow-lg">
                       BONUS {i + 1}
@@ -354,13 +446,21 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* 5. PRICING / OFERTA - REDESIGNED */}
+      {/* 5. PRICING */}
       <section id="pricing" className="py-32 bg-[#0a0a0a]">
         <div className="container mx-auto px-4">
           <FadeIn>
-            <div className="text-center mb-20">
-              <h2 className="text-4xl md:text-5xl font-bold text-white">Elige Tu Camino Al Éxito</h2>
-              <p className="mt-4 text-[#c9a227] text-xl font-medium tracking-wide">Una inversión única. Resultados de por vida.</p>
+            <div className="text-center mb-10">
+              <h2 className="text-4xl md:text-5xl font-bold text-white">{currT.pricing}</h2>
+              <p className="mt-4 text-[#c9a227] text-xl font-medium tracking-wide">{currT.pricingSubtitle}</p>
+            </div>
+            
+            <div className="flex items-center justify-center gap-3 mb-12 bg-[#1a1a1a] border border-[#c9a227]/20 rounded-full px-6 py-3 max-w-sm mx-auto">
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => <div key={i} className="w-3 h-3 rounded-full bg-[#c9a227]" />)}
+                {[...Array(7)].map((_, i) => <div key={i} className="w-3 h-3 rounded-full bg-[#2a2a2a]" />)}
+              </div>
+              <span className="text-sm text-gray-300 font-medium">Solo quedan <span className="text-[#c9a227] font-bold">5 plazas</span> a este precio</span>
             </div>
           </FadeIn>
 
@@ -370,8 +470,8 @@ export default function LandingPage() {
               <div className="bg-[#1a1a1a] rounded-3xl p-10 border border-[#2a2a2a] shadow-lg">
                 <h3 className="text-2xl font-bold text-white mb-2">Plan Básico</h3>
                 <div className="flex items-end gap-2 mb-8 border-b border-[#2a2a2a] pb-8">
-                  <span className="text-xl text-gray-500 line-through mb-1">$17</span>
-                  <span className="text-5xl font-black text-white">$7</span>
+                  <span className="text-xl text-gray-500 line-through mb-1">$14</span>
+                  <span className="text-5xl font-black text-white">$5</span>
                 </div>
                 <ul className="space-y-5 mb-10">
                   <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-[#c9a227] shrink-0" /><span className="text-gray-300">350 Sesiones de Entrenamiento</span></li>
@@ -379,7 +479,7 @@ export default function LandingPage() {
                   <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-[#c9a227] shrink-0" /><span className="text-gray-300">Garantía de 7 días</span></li>
                   <li className="flex items-start gap-3 opacity-50"><X className="w-5 h-5 text-red-500 shrink-0" /><span className="text-gray-500 line-through">No incluye los bonos</span></li>
                 </ul>
-                <Button variant="outline" className="w-full h-14 text-lg font-bold border-[#2a2a2a] text-gray-300 hover:bg-[#111111] hover:text-white rounded-xl">
+                <Button onClick={() => setShowUpsell(true)} variant="outline" className="w-full h-14 text-lg font-bold border-[#2a2a2a] text-gray-300 hover:bg-[#111111] hover:text-white rounded-xl">
                   ELEGIR BÁSICO
                 </Button>
               </div>
@@ -388,7 +488,6 @@ export default function LandingPage() {
             {/* Plan Completo */}
             <FadeIn delay={0.1}>
               <div className="bg-[#111111] rounded-3xl p-10 relative transform md:-translate-y-4 shadow-[0_0_50px_-12px_rgba(201,162,39,0.3)]">
-                {/* Gold Gradient Border effect */}
                 <div className="absolute inset-0 rounded-3xl bg-gradient-to-b from-[#c9a227] to-[#e8c547] p-[2px] -z-10" />
                 <div className="absolute inset-[2px] bg-[#111111] rounded-[22px] -z-10" />
 
@@ -483,7 +582,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-4">
           <FadeIn>
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-white">Lo Que Dicen Los Entrenadores</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-white">{currT.testimonials}</h2>
             </div>
           </FadeIn>
 
@@ -491,7 +590,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* 8. GARANTÍA - LUXURY REDESIGN */}
+      {/* 8. GARANTÍA */}
       <section className="py-32 bg-[#0a0a0a] relative overflow-hidden border-y border-[#2a2a2a]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#c9a227]/10 via-transparent to-transparent opacity-80" />
         
@@ -499,7 +598,6 @@ export default function LandingPage() {
           <FadeIn>
             <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
               
-              {/* Medal Graphic */}
               <div className="relative mb-12">
                 <div className="absolute inset-0 bg-[#c9a227] blur-3xl opacity-20 rounded-full" />
                 <div className="w-32 h-32 rounded-full bg-gradient-to-br from-[#e8c547] to-[#a8831c] p-1 shadow-2xl relative z-10">
@@ -511,7 +609,7 @@ export default function LandingPage() {
 
               <div className="w-full h-px bg-gradient-to-r from-transparent via-[#c9a227]/50 to-transparent mb-8 max-w-lg" />
               
-              <h3 className="text-4xl md:text-6xl font-black text-white mb-6 tracking-tight">GARANTÍA TOTAL DE 7 DÍAS</h3>
+              <h3 className="text-4xl md:text-6xl font-black text-white mb-6 tracking-tight">{currT.guarantee}</h3>
               
               <p className="text-[#e8c547] text-xl md:text-2xl font-medium mb-12 max-w-2xl leading-relaxed">
                 Si no estás 100% satisfecho, te devolvemos cada centavo. Sin demoras. Sin preguntas.
@@ -545,7 +643,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-4 max-w-3xl">
           <FadeIn>
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a]">Preguntas Frecuentes</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#0a0a0a]">{currT.faq}</h2>
             </div>
             
             <Accordion type="single" collapsible className="w-full bg-white rounded-2xl shadow-sm border border-gray-100 p-2">
@@ -575,13 +673,14 @@ export default function LandingPage() {
         <div className="absolute inset-0 opacity-15 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#c9a227] via-transparent to-transparent" />
         <div className="container mx-auto px-4 relative z-10">
           <FadeIn className="text-center max-w-4xl mx-auto">
+            <img src={heroMockup} alt="Mockup" className="mx-auto mb-8 max-w-2xl w-full rounded-2xl shadow-[0_0_60px_-20px_rgba(201,162,39,0.4)]" />
             <h2 className="text-4xl md:text-6xl font-black text-white mb-8">700 Sesiones de Entrenamiento de Baloncesto</h2>
             <Button 
               onClick={scrollToPricing}
               size="lg" 
               className="w-full md:w-auto text-xl h-20 px-16 bg-[#c9a227] hover:bg-[#a8831c] text-black font-bold rounded-full shadow-[0_0_50px_-10px_rgba(201,162,39,0.6)] transition-all hover:scale-105 active:scale-95"
             >
-              YA ACLARÉ MIS DUDAS, ¡QUIERO COMPRAR!
+              {currT.finalCta}
             </Button>
           </FadeIn>
         </div>
@@ -589,15 +688,10 @@ export default function LandingPage() {
 
       {/* 11. FOOTER */}
       <footer className="bg-[#060606] py-12 border-t border-[#2a2a2a]">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
-          <p className="text-gray-500 text-sm">
+        <div className="container mx-auto px-4 flex flex-col items-center justify-center">
+          <p className="text-gray-500 text-sm text-center">
             © 2026 Entrenamientos de Baloncesto. Todos los derechos reservados.
           </p>
-          <div className="flex gap-6 text-sm">
-            <a href="#" className="text-gray-500 hover:text-white transition-colors">Política de Privacidad</a>
-            <a href="#" className="text-gray-500 hover:text-white transition-colors">Términos de Uso</a>
-            <a href="#" className="text-gray-500 hover:text-white transition-colors">Contacto</a>
-          </div>
         </div>
       </footer>
 

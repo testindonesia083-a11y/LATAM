@@ -60,3 +60,51 @@ id = "62m572o3XPMwNejlNZcHx"
 uri = "file://artifacts/basketball-landing/src/assets/images/bonus-3.png"
 type = "image"
 title = "Basketball tactical plays"
+
+[[generated]]
+id = "mO5EgARjDrnAYW2-m3doK"
+uri = "file://artifacts/basketball-landing/src/assets/images/testimonial-1.png"
+type = "image"
+title = "Alejandro Garcia coach headshot"
+
+[[generated]]
+id = "JhdRrikNE47MBktYBsbA3"
+uri = "file://artifacts/basketball-landing/src/assets/images/testimonial-2.png"
+type = "image"
+title = "Daniel Herrera coach headshot"
+
+[[generated]]
+id = "uT1MHrrrG_niffq7ndSjj"
+uri = "file://artifacts/basketball-landing/src/assets/images/testimonial-3.png"
+type = "image"
+title = "Ricardo Mendoza coach headshot"
+
+[[generated]]
+id = "wFGUWTsgFTtkKQs91ztCh"
+uri = "file://artifacts/basketball-landing/src/assets/images/testimonial-4.png"
+type = "image"
+title = "Carlos Vega coach headshot"
+
+[[generated]]
+id = "0eDWxpSJp8YB410CzQdWB"
+uri = "file://artifacts/basketball-landing/src/assets/images/testimonial-5.png"
+type = "image"
+title = "Marcos Ruiz coach headshot"
+
+[[generated]]
+id = "tv0ComuTHfnr9cej5W7qH"
+uri = "file://artifacts/basketball-landing/src/assets/images/testimonial-6.png"
+type = "image"
+title = "Javier Torres coach headshot"
+
+[[generated]]
+id = "KII7Sxmr9JaBp0cceTrEF"
+uri = "file://artifacts/basketball-landing/src/assets/images/testimonial-7.png"
+type = "image"
+title = "Luis Fernandez coach headshot"
+
+[[generated]]
+id = "eW315uYglui8gz8e6eHjr"
+uri = "file://artifacts/basketball-landing/src/assets/images/testimonial-8.png"
+type = "image"
+title = "Pablo Sanchez coach headshot"
