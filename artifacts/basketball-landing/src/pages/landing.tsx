@@ -85,7 +85,7 @@ const t = {
     pricingSubtitle: 'Una inversión única. Resultados de por vida.',
     scarcity: ['Solo quedan', '5 plazas', 'a este precio'],
     planBasicName: 'Plan Básico',
-    planBasicItems: ['350 Sesiones de Entrenamiento', 'Acceso Inmediato y de Por Vida', 'Garantía de 7 días', 'No incluye los bonos'],
+    planBasicItems: ['700 Sesiones de Entrenamiento', 'Acceso Inmediato y de Por Vida', 'Garantía de 7 días', 'No incluye los bonos'],
     planBasicBtn: 'ELEGIR BÁSICO',
     planFullName: 'Plan Completo',
     planFullBadge: 'RECOMENDADO',
@@ -159,7 +159,7 @@ const t = {
     pricingSubtitle: 'One-time investment. Lifetime results.',
     scarcity: ['Only', '5 spots', 'left at this price'],
     planBasicName: 'Basic Plan',
-    planBasicItems: ['350 Training Sessions', 'Immediate & Lifetime Access', '7-Day Guarantee', 'Bonuses not included'],
+    planBasicItems: ['700 Training Sessions', 'Immediate & Lifetime Access', '7-Day Guarantee', 'Bonuses not included'],
     planBasicBtn: 'CHOOSE BASIC',
     planFullName: 'Complete Plan',
     planFullBadge: 'RECOMMENDED',
@@ -331,7 +331,7 @@ const UpsellModal = ({ onClose }: { onClose: () => void }) => (
       </div>
       
       <ul className="space-y-4 mb-8 text-gray-200">
-        <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-green-500 shrink-0 mt-0.5" /><span>700 Sesiones de Entrenamiento (en lugar de 350)</span></li>
+        <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-green-500 shrink-0 mt-0.5" /><span>700 Sesiones de Entrenamiento</span></li>
         <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-green-500 shrink-0 mt-0.5" /><span>100 Sesiones Extra de Baloncesto</span></li>
         <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-green-500 shrink-0 mt-0.5" /><span>40 Sesiones de Defensa en Baloncesto</span></li>
         <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-green-500 shrink-0 mt-0.5" /><span>75 Sesiones de Táctica y Desmarque</span></li>
@@ -340,14 +340,14 @@ const UpsellModal = ({ onClose }: { onClose: () => void }) => (
 
       <p className="text-[#c9a227] font-bold text-center mb-6">⚡ ¡Esta oferta solo aparece una vez!</p>
 
-      <Button className="w-full h-14 bg-green-500 hover:bg-green-600 text-white font-bold rounded-xl text-lg mb-4">
+      <a href="https://pay.hotmart.com/U106546551D?off=pjja75vs" target="_blank" rel="noopener noreferrer" className="block w-full h-14 bg-green-500 hover:bg-green-600 text-white font-bold rounded-xl text-lg mb-4 flex items-center justify-center transition-colors">
         Sí, quiero el Plan Premium por $7
-      </Button>
+      </a>
 
       <div className="text-center">
-        <button onClick={onClose} className="text-gray-500 hover:text-gray-300 text-sm cursor-pointer underline">
+        <a href="https://pay.hotmart.com/U106546551D?off=i2x8k7hx" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-300 text-sm cursor-pointer underline">
           No, continuar con el Plan Básico
-        </button>
+        </a>
       </div>
     </div>
   </div>
@@ -581,9 +581,14 @@ export default function LandingPage() {
                     </li>
                   ))}
                 </ul>
-                <Button onClick={() => setShowUpsell(true)} variant="outline" className="w-full h-14 text-lg font-bold border-[#2a2a2a] text-gray-300 hover:bg-[#111111] hover:text-white rounded-xl">
+                <a
+                  href="https://pay.hotmart.com/U106546551D?off=rdfmepd5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full h-14 text-lg font-bold border border-[#2a2a2a] text-gray-300 hover:bg-[#111111] hover:text-white rounded-xl flex items-center justify-center transition-colors bg-transparent"
+                >
                   {currT.planBasicBtn}
-                </Button>
+                </a>
               </div>
             </FadeIn>
 
