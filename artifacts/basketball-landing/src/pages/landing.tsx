@@ -615,9 +615,9 @@ export default function LandingPage() {
                   ))}
                 </ul>
 
-                <Button className="w-full h-16 text-lg font-bold bg-[#c9a227] hover:bg-[#a8831c] text-black mb-4 rounded-xl shadow-[0_0_30px_-5px_rgba(201,162,39,0.4)] transition-transform hover:scale-105 active:scale-95">
+                <a href="https://pay.hotmart.com/U106546551D?off=pjja75vs" target="_blank" rel="noopener noreferrer" className="block w-full h-16 text-lg font-bold bg-[#c9a227] hover:bg-[#a8831c] text-black mb-4 rounded-xl shadow-[0_0_30px_-5px_rgba(201,162,39,0.4)] transition-transform hover:scale-105 active:scale-95 flex items-center justify-center">
                   {currT.planFullBtn}
-                </Button>
+                </a>
                 
               </div>
             </FadeIn>
